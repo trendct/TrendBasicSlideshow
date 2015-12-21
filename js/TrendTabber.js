@@ -1,3 +1,12 @@
+/** 
+
+	TrendTabber.js
+
+	Simple content panel viewer (for a slideshow or any other application) using 
+	Bootstrap for prettying up quick and Pym.js for easy dynamic embedding.
+
+**/
+
 TrendTabber = function (options) {
 
 	this.options = options;

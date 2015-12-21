@@ -45,12 +45,11 @@ $(function () {
 			//url: "img/corridor_alt2_2_ts.jpeg",
 			headline: "Muffins!",
 			caption: "Muffins!",
-			html: "<div><img src='img/wikimuffins.jpg' /> Image <a href='https://en.wikipedia.org/wiki/Muffin#/media/File:NCI_Visuals_Food_Muffins.jpg'>from Wikipedia</a></div>"
+			html: "<div><img src='img/wikimuffins.jpg' /> <br />Image <a href='https://en.wikipedia.org/wiki/Muffin#/media/File:NCI_Visuals_Food_Muffins.jpg'>from Wikipedia</a></div>"
 
 		},
 		]
 	});
-
 
 })
 

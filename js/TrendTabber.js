@@ -76,7 +76,6 @@ TrendTabber.prototype.show = function(index){
 	$("#" + this.options.slider_name + "_ts_button_container .trend_basic_slider_button").removeClass("selected");
 	var slide = this.options.slides[index];
 
-	console.log("add class: #" + this.options.slider_name + "_button_" + index);
 	$("#" + this.options.slider_name + "_button_" + index).addClass("selected");
 	$("#" + this.options.slider_name + "_slide_" + index).show();
 	$("#" + this.options.slider_name + "_ts_caption").html(slide.caption);

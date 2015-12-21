@@ -1,6 +1,6 @@
 $(function () {
 
-	var corridor_slideshow = new TrendSlideshow ({
+	var muffin_slideshow = new TrendSlideshow ({
 		root_div: "corridor_slider_root",
 		slider_name: "rail_corridor_122015",
 		headline: "Muffin recipe",

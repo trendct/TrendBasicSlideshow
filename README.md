@@ -5,7 +5,7 @@ Use tabs to switch between content panels. Can be used as a slideshow, toggling 
 ####Usage
 There's no documentation for this, but the basic usage is observable in main.js:
 		
-		var corridor_slideshow = new TrendSlideshow (options);
+		var muffin_slideshow = new TrendSlideshow (options);
 
 Where options is an options object. A bunch of objects within options are required, and some don't do anything yet. Here is an incomplete list:
 
@@ -14,6 +14,6 @@ Where options is an options object. A bunch of objects within options are requir
 3. caption - the "default" caption for the spreadsheet. Useless, since it gets replaced right away by showing the first slide, but still required until I get around to deleting reference.
 4. button_text - does nothing, not required. This was originally envisioned as the default text to use instead of titles for the tab buttons.
 5. slides - required array of objects that describe the content of each slide / panel
-	5.1. headline - headline for that specific panel
-	5.2. caption - Caption text for that specific panel
-	5.3. html - html content for that panel. It can simply be an img, which was the original use of this code, or it can be a div, iframe, anything.
+	1. headline - headline for that specific panel
+	2. caption - Caption text for that specific panel
+	3. html - html content for that panel. It can simply be an img, which was the original use of this code, or it can be a div, iframe, anything.

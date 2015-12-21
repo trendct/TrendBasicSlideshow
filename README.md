@@ -5,7 +5,7 @@ Use tabs to switch between content panels. Can be used as a slideshow, toggling 
 ####Usage
 There's no documentation for this, but the basic usage is observable in main.js:
 		
-		var muffin_slideshow = new TrendSlideshow (options);
+		var muffin_slideshow = new TrendTabber (options);
 
 Where options is an options object. A bunch of objects within options are required, and some don't do anything yet. Here is an incomplete list:
 

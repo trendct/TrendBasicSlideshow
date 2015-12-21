@@ -51,7 +51,6 @@ $(function () {
 		]
 	});
 
-	corridor_slideshow.pym_child.sendHeight();
 
 })
 
